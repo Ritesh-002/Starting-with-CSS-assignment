@@ -1,0 +1,23 @@
+Ans1. 
+What is CSS?
+CSS, or Cascading Style Sheets, is a fundamental technology used to style and format web pages. It works alongside HTML and JavaScript to enhance the presentation and layout of web content
+
+Why use CSS
+1. Consistency
+2. Extensibility
+3. Performance
+4. Accessibility
+5 Responsive Design
+
+Ans2. 
+1. External CSS File
+You can link an external CSS file to your HTML document using the <link> element inside the <head> section. This is the most common and recommended method for including CSS
+2. Internal CSS
+You can embed CSS directly within the <style> element in the <head> section of your HTML document. This method is useful for smaller stylesheets or when styles are specific to that particular HTML file.
+3. Inline CSS
+You can apply CSS directly to individual HTML elements using the style attribute. This method is generally discouraged for large-scale styling due to its lack of maintainability and separation of concerns.
+4. @import Rule
+You can use the @import rule within a <style> block or in an external stylesheet to import another CSS file into your current CSS file. Note that using @import within a <style> block has performance implications and is not recommended for production use.
+
+Ans3.
+Specificity in CSS determines which style rules are applied to an element when multiple rules could apply. It's like a hierarchy that decides which style is more important for an element.
